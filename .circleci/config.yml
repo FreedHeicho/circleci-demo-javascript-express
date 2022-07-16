@@ -2,12 +2,12 @@ version: 2.1
 
 workflows:
   version: 2
-  build:
+  buid:
     jobs:
-      - build
+      - buid
 
 jobs:
-  build:
+  buid:
     working_directory: ~/mern-starter
     docker:
       - image: circleci/node:10.16.3
